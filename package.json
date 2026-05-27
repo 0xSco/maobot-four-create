@@ -1,0 +1,18 @@
+{
+  "name": "fourmeme-bot-local-mac",
+  "version": "0.2.0",
+  "description": "Mac 本地 four.meme 推特监听自动建盘脚本",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dry-run": "DRY_RUN=true node bot.js",
+    "check": "node --check bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

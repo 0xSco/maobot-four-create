@@ -1,0 +1,18 @@
+# secrets / local config
+config.env
+.env
+*.env.local
+
+# dependencies
+node_modules/
+
+# runtime artifacts
+.tmp/
+fourmeme-bot.log
+processed-tweets.json
+*.log
+
+# archives / local files
+*.tar.gz
+*.zip
+.DS_Store
